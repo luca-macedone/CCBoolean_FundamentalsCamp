@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Stile -->
+    <link rel="stylesheet" href="./style.css">
+    
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+    
+    <!-- Titolo e descrizione -->
+    <title>Lim | Coding Challenge</title>
+    <meta name="description" content="Coding Challenge per Boolean Carreers">
+</head>
+<body>
+
+    <!-- Box contenitore -->
+    <div class="container">
+
+        <!-- Box contenente il titolo della pagina e il logo -->
+        <div class="logo-container">
+
+            <img src="./images/logo.png" alt="logo di Lim">
+            <h1>Taking Booleaners from A to B</h1>
+
+        </div>
+
+        <!-- Box contenente i bottoni della pagina -->
+        <div class="buttons-container">
+
+            <button>Prenota</button>
+            <button>Termina Prenotazione</button>
+            <button>Accendi Luci</button>
+
+        </div>
+
+        <!-- Box contenente i monopattini prenotabili -->
+        <div class="content-container">
+            
+            <!-- Primo monopattino -->
+            <div class="block">
+                
+                <div>
+                    <input type="checkbox" id="mono1-input">
+                    <label for="mono1-input">Monopattino Gino22</label>
+                </div>
+                <p>→ Via Guadalametri - a 220 metri da te</p>
+                <p>Stato di carica:</p>
+                <div  class="chargin-state" id="mono1-charge"></div>
+            
+            </div>
+
+            <!-- Secondo monopattino -->
+            <div class="block">
+
+                <div>
+                    <input type="checkbox" id="mono2-input">
+                    <label for="mono2-input">Monopattino Mike24</label>
+                </div>
+                <p>→ Via Ricciardoni - a 420 metri da te</p>
+                <p>Stato di carica:</p>
+                <div  class="chargin-state" id="mono2-charge"></div>
+            
+            </div>
+
+            <!-- Terzo monopattino -->
+            <div class="block">
+                
+                <div>
+                    <input type="checkbox" id="mono3-input">
+                    <label for="mono3-input">Monopattino Fede154</label>
+                </div>
+                <p>→ Via Mentarini - a 490 metri da te</p>
+                <p>Stato di carica:</p>
+                <div  class="chargin-state" id="mono3-charge"></div>
+            
+            </div>
+        </div>
+    </div>
+</body>
+</html>
